@@ -1,6 +1,6 @@
 # Real-Time-Noise-Cancellation-System
 
-**Overview**
+*Overview*
 This project implements a real-time noise cancellation system using Python, leveraging the pyaudio library for audio processing and scipy for spectral processing. The system uses an adaptive noise estimation algorithm and a Wiener filter to reduce background noise in real-time.
 
 **Features**
