@@ -1,15 +1,18 @@
 # Real-Time-Noise-Cancellation-System
 
-*Overview*
+## Overview
+
 This project implements a real-time noise cancellation system using Python, leveraging the pyaudio library for audio processing and scipy for spectral processing. The system uses an adaptive noise estimation algorithm and a Wiener filter to reduce background noise in real-time.
 
-**Features**
+## Features
+
 Real-Time Processing: The system processes audio streams in real-time, capturing input from a microphone and outputting the processed audio.
 Adaptive Noise Estimation: Uses an adaptive algorithm to estimate and update the noise level dynamically.
 Wiener Filter: Applies a Wiener filter for effective noise cancellation.
 Audio Saving: Saves the processed audio to a .wav file upon termination.
 
-**Requirements**
+## Requirements
+
 Python 3.x
 Required Libraries:
 pyaudio
@@ -17,10 +20,12 @@ numpy
 scipy
 wavfile (part of scipy.io)
 
-**Optional Libraries:**
+## Optional Libraries:
+
 matplotlib (for visualization, not included in this version)
 
-**Installation**
+## Installation
+
 To install the required libraries, run the following command:
 
 bash
@@ -66,7 +71,9 @@ Save Processed Audio:
 The processed audio is saved automatically as processed_audio.wav.
 Parameters
 Alpha (α): The smoothing factor for noise estimation. Default value is 0.9.
-Technical Details
+
+## Technical Details
+
 Audio Settings:
 CHUNK: Number of audio samples per frame (default: 1024).
 RATE: Sample rate (default: 44100 Hz).
@@ -80,7 +87,8 @@ Enhanced Noise Filtering: Explore other noise reduction techniques such as deep 
 User Interface: Implement a graphical user interface (GUI) to control parameters and provide real-time feedback.
 Visualization: Add optional visualization of audio signals and noise levels using matplotlib.
 
-**References**
+## References
+
 RNNoise: A real-time neural network-based noise suppression library.
 Wiener and Adaptive Filters: Detailed comparison and implementation of Wiener and adaptive filters for noise cancellation.
 Deep Learning-Based Noise Removal: Using CNNs for detecting and removing noise from audio.
